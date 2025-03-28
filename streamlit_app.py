@@ -51,7 +51,7 @@ if menu_option == "🏠 Inicio":
     
     cols = st.columns([2, 1])
     with cols[0]:
-        st.image("https://media.giphy.com/media/LpiVeIRgrq6Z3EJpVu/giphy.gif", width=600)
+        sst.image("https://assets8.lottiefiles.com/packages/lf20_5tkzkblw/data_visualization.json", width=600)
     with cols[1]:
         st.markdown("""
         ### Transforma tu organización con:
