@@ -51,7 +51,7 @@ if menu_option == "🏠 Inicio":
     
     cols = st.columns([2, 1])
     with cols[0]:
-        sst.image("https://assets8.lottiefiles.com/packages/lf20_5tkzkblw/data_visualization.json", width=600)
+        st.image("https://media.giphy.com/media/LpiVeIRgrq6Z3EJpVu/giphy.gif", width=600)
     with cols[1]:
         st.markdown("""
         ### Transforma tu organización con:
@@ -193,6 +193,10 @@ elif menu_option == "🎓 Academia GC":
     with st.expander("🎥 Biblioteca Multimedia"):
         st.video("https://youtu.be/6s0OVWoo8vQ")
         # Agregar más recursos...
+
+st.markdown("---")
+st.markdown("### 🚀 ¿Listo para transformar tu organización?")
+st.page_link("https://ejemplo.com", label="Agendar Demo Personalizada →", icon="📅")
 
 st.markdown("---")
 st.markdown("### 🚀 ¿Listo para transformar tu organización?")
